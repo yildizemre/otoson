@@ -12,7 +12,7 @@ export default function About() {
             <div className="relative overflow-hidden rounded-2xl">
               <img
                 src="/about-detailing.jpg"
-                alt="OTOSON profesyonel araç detaylı temizlik ve cilalama işlemi"
+                alt="OTOSON profesyonel kaporta ve boya uygulaması"
                 className="h-full w-full object-cover"
                 width={1200}
                 height={800}
@@ -23,8 +23,8 @@ export default function About() {
             </div>
             <div className="mt-4 grid grid-cols-2 gap-3 sm:absolute sm:-bottom-5 sm:-right-5 sm:mt-0 sm:block sm:rounded-2xl sm:border sm:border-brand-500/30 sm:bg-ink-850 sm:px-6 sm:py-4 sm:shadow-xl">
               <div className="rounded-2xl border border-brand-500/30 bg-ink-850 px-4 py-3 sm:border-0 sm:bg-transparent sm:p-0">
-                <p className="text-3xl font-bold text-brand-500">10+</p>
-                <p className="text-sm text-gray-400">Hizmet kalemi</p>
+                <p className="text-3xl font-bold text-brand-500">Kaporta</p>
+                <p className="text-sm text-gray-400">&amp; Boya uzmanlığı</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-ink-850 px-4 py-3 sm:hidden">
                 <p className="text-3xl font-bold text-white">Kartal</p>
@@ -41,13 +41,13 @@ export default function About() {
               OTOSON Hakkında
             </h2>
             <p className="text-base leading-relaxed text-gray-300 sm:text-lg">
-              OTOSON Oto Yıkama &amp; Otomotiv, araç sahiplerine temizlik,
-              bakım, kaporta, boya ve araç koruma hizmetleri sunan profesyonel
-              bir otomotiv merkezidir. Amacımız, aracınızın hem görünümünü hem
-              de kullanım değerini koruyacak kaliteli ve güvenilir hizmetler
-              sunmaktır. Deneyimli yaklaşımımız, özenli işçiliğimiz ve müşteri
-              memnuniyetine verdiğimiz önemle aracınızı güvenle teslim
-              edebileceğiniz bir hizmet anlayışı benimsiyoruz.
+              OTOSON Oto Yıkama &amp; Otomotiv, Kartal&apos;da kaporta ve boya
+              ağırlıklı çalışan profesyonel bir otomotiv merkezidir. Hasarlı
+              kaporta onarımı, parça değişimi ve orijinale yakın boya
+              uygulamaları başlıca işimizdir. Göçük, çizik giderme, yüzey
+              koruma ve yıkama hizmetlerini de aynı özenle sunuyoruz. Amacımız
+              aracınızı güvenle teslim edebileceğiniz, işçilikten taviz
+              vermeyen bir hizmet anlayışıdır.
             </p>
           </div>
         </div>

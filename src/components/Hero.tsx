@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/hero-carwash.jpg"
-          alt="OTOSON profesyonel araç yıkama ve bakım servisi"
+          alt="OTOSON profesyonel kaporta ve boya servisi"
           className="h-full w-full object-cover"
           width={1920}
           height={1280}
@@ -31,12 +31,12 @@ export default function Hero() {
           {siteConfig.slogan}
         </p>
         <h1 className="mb-5 text-[1.85rem] font-bold leading-tight tracking-tight text-white animate-fade-up sm:text-5xl lg:text-6xl">
-          Aracınız İçin <span className="text-brand-500">Profesyonel</span>{' '}
-          Temizlik ve Bakım
+          Kartal&apos;da <span className="text-brand-500">Kaporta ve Boya</span>{' '}
+          Uzmanı
         </h1>
         <p className="mx-auto mb-8 max-w-2xl text-base leading-relaxed text-gray-300 animate-fade-up [animation-delay:0.1s] sm:text-lg">
-          OTOSON Oto Yıkama &amp; Otomotiv olarak aracınıza yalnızca temizlik
-          değil, ihtiyaç duyduğu özeni ve profesyonel bakımı sunuyoruz.
+          OTOSON olarak ağırlıklı işimiz kaporta onarımı ve boyadır. Hasar,
+          göçük, çizik ve boya işlemlerinde aracınızı özenle teslim ediyoruz.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-3 animate-fade-up [animation-delay:0.2s] sm:flex-row sm:gap-4">
@@ -72,7 +72,7 @@ export default function Hero() {
         <div className="mx-auto mt-8 grid max-w-xl grid-cols-3 gap-2 animate-fade-up [animation-delay:0.3s] sm:mt-10 sm:gap-4">
           <div className="rounded-2xl border border-white/10 bg-white/5 px-2 py-3 backdrop-blur-sm sm:px-3">
             <ShieldCheck className="mx-auto mb-1.5 h-5 w-5 text-brand-400" />
-            <p className="text-[11px] font-medium text-gray-200 sm:text-sm">10+ Hizmet</p>
+            <p className="text-[11px] font-medium text-gray-200 sm:text-sm">Kaporta &amp; Boya</p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/5 px-2 py-3 backdrop-blur-sm sm:px-3">
             <MapPinned className="mx-auto mb-1.5 h-5 w-5 text-brand-400" />

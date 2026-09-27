@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { MapPin, Phone, Instagram, Clock, Send, User, MessageSquare } from 'lucide-react';
-import { siteConfig, mapsLink, mapsEmbed, services } from '@/config/site';
+import { siteConfig, mapsLink, mapsEmbed, services, whatsappLink } from '@/config/site';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 export default function Contact() {
@@ -8,7 +8,7 @@ export default function Contact() {
   const [form, setForm] = useState({
     name: '',
     phone: '',
-    service: '',
+    service: 'Kaporta ve Boya',
     message: '',
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -23,8 +23,13 @@ export default function Contact() {
       setErrors(newErrors);
       return;
     }
-    const text = `Merhaba, OTOSON hizmetleri hakkında bilgi ve randevu almak istiyorum.%0A%0AAd Soyad: ${encodeURIComponent(form.name)}%0ATelefon: ${encodeURIComponent(form.phone)}%0AHizmet: ${encodeURIComponent(form.service)}%0AMesaj: ${encodeURIComponent(form.message)}`;
-    window.open(`https://wa.me/905313678355?text=${text}`, '_blank');
+    const text = `Merhaba, OTOSON Kaporta ve Boya hakkında bilgi ve randevu almak istiyorum.
+
+Ad Soyad: ${form.name}
+Telefon: ${form.phone}
+Hizmet: ${form.service}
+Mesaj: ${form.message}`;
+    window.open(whatsappLink(text), '_blank');
   };
 
   const contactItems = [
@@ -196,7 +201,7 @@ export default function Contact() {
                 Gönder
               </button>
               <p className="text-center text-xs text-gray-500">
-                Form gönderildiğinde bilgiler WhatsApp üzerinden 0531 367 83 55 numarasına yönlendirilir.
+                Form gönderildiğinde bilgiler WhatsApp üzerinden +90 531 367 83 55 numarasına yönlendirilir.
               </p>
             </form>
           </div>

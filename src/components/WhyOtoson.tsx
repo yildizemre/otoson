@@ -12,12 +12,12 @@ export default function WhyOtoson() {
             Neden OTOSON
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Aracınız Güvenilir Ellerde
+            Kaporta ve Boyada Güvenilir Adres
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-gray-400">
             OTOSON olarak her araca kendi aracımız gibi özen gösteriyoruz.
-            Temizlikten kaporta ve boya işlemlerine, yüzey korumadan periyodik
-            bakıma kadar ihtiyaç duyulan hizmetleri titizlikle sunuyoruz.
+            Ağırlıklı olarak kaporta ve boya işliyoruz; göçük, çizik, yüzey
+            koruma ve yıkama ihtiyaçlarını da aynı titizlikle karşılıyoruz.
           </p>
         </div>
 

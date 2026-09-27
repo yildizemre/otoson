@@ -9,11 +9,11 @@ export default function CTA() {
 
       <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
         <h2 className="mb-4 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-          Aracınızın Bakımını Ertelemeyin
+          Kaporta ve Boyayı Ertelemeyin
         </h2>
         <p className="mb-8 text-lg text-white/90">
-          İhtiyacınız olan hizmet hakkında bilgi almak ve randevu oluşturmak
-          için hemen bizimle iletişime geçin.
+          Hasar, göçük veya boya ihtiyacı için WhatsApp&apos;tan yazın, hemen
+          randevu oluşturalım.
         </p>
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
           <a
